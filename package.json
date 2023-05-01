@@ -1,0 +1,37 @@
+{
+  "name": "led-control-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "demo-server": "npm run build && node ./server.cjs"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/lodash": "^4.14.194",
+    "body-parser": "^1.20.2",
+    "clsx": "^1.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fluent-svelte": "^1.6.0",
+    "sass": "^1.62.1",
+    "svelte": "^3.55.1",
+    "svelte-check": "^2.10.3",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "packageManager": "pnpm@8.0.0",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "open-props": "^1.5.8",
+    "rxjs": "^7.8.1",
+    "svelte-french-toast": "1.0.4-beta.0"
+  }
+}
